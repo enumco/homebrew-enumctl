@@ -1,28 +1,28 @@
 class Enumctl < Formula
   desc "CLI for managing enum cloud infrastructure"
   homepage "https://enum.co"
-  version "2026.04.4"
+  version "2026.04.5"
   license :cannot_represent
 
   on_macos do
     on_intel do
-      url "https://dl.enum.co/enumctl/2026.04.4/enumctl-darwin-amd64"
-      sha256 "18f9178caf2b1fb637d087e40ba4f6decccd563a163644ced92e7a1cfab5449e"
+      url "https://dl.enum.co/enumctl/2026.04.5/enumctl-darwin-amd64"
+      sha256 "7e4552695bf04a2fadaaa6a1c144a5b76a3ee6177b3981cbcda559f259259165"
     end
     on_arm do
-      url "https://dl.enum.co/enumctl/2026.04.4/enumctl-darwin-arm64"
-      sha256 "c030e74e3acb9e93355c085fc90218f977edb8767de8a2456dc72f15185b2a37"
+      url "https://dl.enum.co/enumctl/2026.04.5/enumctl-darwin-arm64"
+      sha256 "947ac6d8b4201c1a06c5bf1af1befca80dfb70740cc0248092a6322b7bcfaa86"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://dl.enum.co/enumctl/2026.04.4/enumctl-linux-amd64"
-      sha256 "b2fbe9f3356267d188b06fea37251686cb97def79fe707d7b207029fbb76e74f"
+      url "https://dl.enum.co/enumctl/2026.04.5/enumctl-linux-amd64"
+      sha256 "bc4ed0d056cf0df798cb4114ccd38d18f7abecd0144ac1705fc45bb1cf730f3c"
     end
     on_arm do
-      url "https://dl.enum.co/enumctl/2026.04.4/enumctl-linux-arm64"
-      sha256 "33b5c6d285e354ee987f911e360a0d58ed1753b70dab7126522221b7aa55166f"
+      url "https://dl.enum.co/enumctl/2026.04.5/enumctl-linux-arm64"
+      sha256 "b8477864f2ed787ece61b3045f1d5ff6ea5124e2a0189196d95ff22b2f58030d"
     end
   end
 
